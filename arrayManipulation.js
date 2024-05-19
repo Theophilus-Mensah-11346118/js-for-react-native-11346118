@@ -25,6 +25,13 @@ const inputArray = [1, 2, 3, 4, 5];
 const processedNumbers = processArray(inputArray);
 console.log('Processed Numbers:', processedNumbers); 
 
-const stringArray = ['One', 'Two', 'Three', 'Four', 'Five'];
+const stringArray = ['Junior', 'Andy', 'Eugene', 'Kelvin', 'Joe'];
 const formattedStrings = formatArrayStrings(stringArray, processedNumbers);
+const formattedStrings1 = ['junior', 'ANDY', 'eugene', 'KELVIN', 'joe'];
 console.log('Formatted Strings:', formattedStrings); 
+
+
+module.export = {
+  stringArray,
+  formattedStrings1
+};
